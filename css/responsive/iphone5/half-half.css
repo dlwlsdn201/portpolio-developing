@@ -9,9 +9,7 @@
 
 /* ----certification---- */
 .certification-container .section-top {
-    /* padding-top: 0; */
-    margin-top: 10vw;
-    border-bottom: 2px solid red;
+    padding-top: 0;
 }
 
 .certification-container .section-middle {
@@ -20,6 +18,7 @@
 
 .certification-container .title-wrapper {
     margin-bottom: 5vw;
+    border: 1px solid red;
 }
 
 .certification-container .article-row-1 {
