@@ -74,12 +74,16 @@
 }
 
 .certification-container .section-bottom .content-box {
-    flex: 0.2;
-    width: 20rem;
+    flex: 0.22;
+}
+
+.certification-container .content-box *[class*="M"]{
+    font-size: 3vw;
 }
 
 .certification-container .section-bottom .horizonal-line-blue {
     width: 100%;
+    margin: 0.3vw 0 0.5vw;
     border: 1px solid #436caf;
 }
 
