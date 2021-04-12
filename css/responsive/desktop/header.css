@@ -1,7 +1,6 @@
 .header-container{
     position: fixed;
     width: 100%;
-    z-index: 1000;
     padding: 2vw;
     box-sizing: border-box;
     background: #7b9acc;
