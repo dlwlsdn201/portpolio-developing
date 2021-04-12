@@ -1,0 +1,17 @@
+.start, .end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25vw 0;
+}
+
+.text-wrapper {
+    text-align: right;
+    margin-top: 1vw;
+}
+
+/* -----start----- */
+
+.edge-start-container {
+    padding: 0;
+}

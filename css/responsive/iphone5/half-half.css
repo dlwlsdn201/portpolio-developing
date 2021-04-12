@@ -1,0 +1,136 @@
+/* ----common----- */
+.half-half .section-middle {
+    padding: 50vw 0;
+}
+
+.half-half .section-bottom {
+    padding: 10vw 0;
+}
+
+
+
+/* ----certification---- */
+.certification-container .section-top {
+    padding-top: 0;
+}
+
+.certification-container .section-middle {
+    padding: 20vw 0;
+}
+
+.certification-container .title-wrapper {
+    margin-bottom: 5vw;
+}
+
+.certification-container .article-row-1 {
+    margin-bottom: 10vw;
+}
+
+.certification-container .col {
+    align-items: flex-start;
+}
+
+.certification-container .section-bottom .col >*{
+    /*certification row 간격 조절하는 곳 */
+}
+
+
+.certification-container .section-bottom .content-wrapper {
+    align-items: initial;
+}
+
+
+.certification-container .section-bottom .col-1 {
+    width: 50vw;
+    margin-right: 1vw;
+}
+
+
+.certification-container .section-bottom .col-2 {
+    justify-content: space-between;
+    padding: 8vw 0 8.7vw;
+    margin-right: 3vw;
+}
+
+.certification-container .section-bottom .col-3 {
+    justify-content: space-between;
+    margin: 0;
+    padding: 8.2vw 0 9vw;
+}
+
+.certification-container .section-bottom .col-3 p{
+    font-size: 3vw;
+}
+
+.certification-container .section-bottom .col-3 p:nth-child(2){
+    padding-bottom: 3vw;
+}
+
+.certification-container .content-wrapper-white {
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+    align-items: flex-start;
+}
+
+.certification-container .section-bottom .content-box {
+    flex: 0.2;
+    width: 20rem;
+}
+
+.certification-container .section-bottom .horizonal-line-blue {
+    width: 100%;
+    border: 1px solid #436caf;
+}
+
+
+/* ---------index------- */
+
+.index-container .section-middle {
+    padding: 20vw 0;
+}
+
+.index-container .section-bottom {
+    padding: 20vw 0;
+}
+
+.index-container .title-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.index-container .section-bottom .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.index-container .content-wrapper .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-right: 2vw;
+}
+
+.index-container .content-wrapper .col span{
+    font-size: 3vw;
+}
+
+.index-container .content-wrapper .col-1 {
+    margin-right: 2vw;
+}
+
+.index-container .content-wrapper .col-1 span {
+    display: block;
+}
+
+
+.index-container .section-bottom .text-default-M{
+    margin-left: 1vw;
+}
+
+.index-container .content-wrapper .col .row {
+    margin-bottom : 1.5vw;
+}
+

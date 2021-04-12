@@ -1,0 +1,19 @@
+.header-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px 0;
+    box-sizing: border-box;
+    background: #7b9acc;
+}
+
+.menu-block {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu {
+    margin-right: 12px;
+}
