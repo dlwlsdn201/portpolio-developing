@@ -1,9 +1,8 @@
 .header-container{
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
-    padding: 1rem 2rem;
+    z-index: 1000;
+    padding: 2vw 3vw;
     box-sizing: border-box;
     background: #7b9acc;
 }

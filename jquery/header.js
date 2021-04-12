@@ -1,7 +1,7 @@
 
 // header 높이에 따른 1페이지 margin-top 값 조절
 $(document).ready(function() {
-    var headerHeight = $(".header-container").height();
+    var headerHeight = $(".header-container").innerHeight();
 
-    $(".certification-container").css("margin-top", headerHeight);
+    $(".certification-container").css("margin-top", headerHeight-1);
 });

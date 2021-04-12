@@ -15,3 +15,8 @@
 .edge-start-container {
     padding: 0;
 }
+
+/* -----edge----- */
+.edge-end-container .section-bottom {
+    padding: 0 0 5vw;
+}

@@ -1,9 +1,8 @@
 .header-container{
     position: fixed;
-    top: 0;
-    left: 0;
+    z-index: 1000;
     width: 100%;
-    padding: 12px 0;
+    padding: 3vw 2vw;
     box-sizing: border-box;
     background: #7b9acc;
 }
@@ -15,5 +14,5 @@
 }
 
 .menu {
-    margin-right: 12px;
+    margin-right: 3vw;
 }
