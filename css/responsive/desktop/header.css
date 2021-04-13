@@ -1,7 +1,7 @@
 .header-container{
     position: fixed;
     width: 100%;
-    padding: 2vw;
+    padding: 2vw 4vw;
     box-sizing: border-box;
     background: #7b9acc;
 }
@@ -13,9 +13,42 @@
 }
 
 .menu {
-    width: 6vw;
+    width: 8vw;
+    padding: 0.3vw 0;
 }
 
-.menu:hover {
+.menu:last-child {
+    width: 10vw;
+}
+
+.menu:hover > a{
+    font-weight: 800;
+}
+
+.menu:hover .submenu {
+    position: absolute;
+    display: block;
+}
+
+.submenu {
+    position: absolute;
+    top: 4.2vw;
+    padding: 1vw 0.5vw;
+    border: 1px solid red;
+    background: #7b9acc;
+    display: none;
+}
+
+.submenu .subItem {
+    margin-top: 1vw;
+    width: 12vw;
+}
+
+.submenu .subItem:first-child {
+    margin-top: 0;
+}
+
+
+.submenu .subItem:hover {
     font-weight: 800;
 }

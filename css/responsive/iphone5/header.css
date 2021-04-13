@@ -1,7 +1,7 @@
 .header-container{
     position: fixed;
     width: 100%;
-    padding: 2vw 2vw;
+    padding: 2vw 6vw 2vw 2vw;
     box-sizing: border-box;
     background: #7b9acc;
 }
@@ -13,5 +13,40 @@
 }
 
 .menu {
-    margin-right: 3vw;
+    padding: 0.3vw 2vw;
+    width: 10vw;
+}
+
+.menu:last-child {
+    margin-right: 6vw;
+}
+
+
+.menu:hover > a{
+    font-weight: 800;
+}
+
+.menu:hover .submenu {
+    position: absolute;
+    display: block;
+}
+
+.submenu {
+    position: absolute;
+    padding: 1.5vw 1vw;
+    background: #7b9acc;
+    display: none;
+}
+
+.submenu .subItem {
+    margin-top: 2vw;
+}
+
+.submenu .subItem:first-child {
+    margin-top: 0;
+}
+
+
+.submenu .subItem:hover {
+    font-weight: 800;
 }

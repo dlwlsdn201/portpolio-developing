@@ -134,7 +134,7 @@ div[class="colorItem-grey"]{
 
 /* font-style */
 *[class*="title-bold-S"]{
-    font-size: 16px;
+    font-size: 1.2vw;
 }
 
 *[class*="text-S"]{
