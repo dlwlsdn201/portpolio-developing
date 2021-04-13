@@ -92,6 +92,28 @@ hr[class*="white"] {
 }
 
 
+.link_button-wrapper {
+    margin-top: 1vw;
+}
+.link-button {
+    border: none;
+    border-radius: 15px;
+    background: lightgray;
+    outline: none;
+    cursor: pointer;
+    padding: 0.5vw 1.5vw;
+}
+
+.link-button:hover {
+    background: #7b9acc;
+}
+
+.link-button:active {
+    background: #436caf;
+    color: white;
+}
+
+
 
 div[class|="colorItem"]{
     padding: 0 2vw;
