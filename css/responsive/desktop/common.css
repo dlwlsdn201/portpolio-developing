@@ -94,10 +94,15 @@ hr[class*="white"] {
 
 .link_button-wrapper {
     margin-top: 1vw;
+    border: none;
+    outline: none;
+    border-radius: 15px;
 }
+
+
 .link-button {
     border: none;
-    border-radius: 15px;
+    border-radius: inherit;
     background: lightgray;
     outline: none;
     cursor: pointer;
