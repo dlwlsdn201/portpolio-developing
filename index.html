@@ -17,6 +17,7 @@
     <!-- <script src="http://code.jquery.com/jquery-latest.js"></script> -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js">   </script>
     <script src="./jquery/header.js"></script>
+
     <title>main</title>
 </head>
 <body>
@@ -24,28 +25,28 @@
         <div class="header-container">
             <nav>
                 <ul class="menu-block">
-                    <li class="home title-bold-S menu white">
+                    <li class="home title-bold-S menu white" id="home">
                         <a href="#">HOME</a>
                     </li>
-                    <li class="about title-bold-S menu white">
+                    <li class="about title-bold-S menu white" id="about">
                         <a href="#">ABOUT</a>
                     </li>
                     <li class="portpolio title-bold-S menu white">
                         <a href="#">PORTPOLIO</a>
                         <ul class="submenu">
-                            <li class="subItem item">
+                            <li class="subItem item" id="section4">
                                 <a href="#">Web Page</a>
                             </li>
-                            <li class="subItem item">
+                            <li class="subItem item" id="section5">
                                 <a href="#">IOS/Android Design</a>
                             </li>
-                            <li class="subItem item">
+                            <li class="subItem item" id="section6">
                                 <a href="#">Web Page</a>
                             </li>
-                            <li class="subItem item">
+                            <li class="subItem item" id="section7">
                                 <a href="#">Web Page Sub</a>
                             </li>
-                            <li class="subItem item">
+                            <li class="subItem item" id="section8">
                                 <a href="#">Web One Page</a>
                             </li>
                         </ul>
@@ -54,7 +55,7 @@
             </nav>
         </div>
     </header>
-    <section>
+    <section id="section-1">
         <div class="half-half certification-container container">
             <div class="section-top skyBlue">
                 <div class="inner-container">
@@ -192,7 +193,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="section-2">
         <div class="edge-start-container container">
             <div class="section-top skyBlue">
                 <div class="inner-container">
@@ -224,7 +225,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="section-3">
         <div class="half-half index-container container">
             <div class="section-top skyBlue">
                 <div class="inner-container">
@@ -331,7 +332,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="section-4">
         <div class="onePage1 onePage-container container">
             <div class="section-top">
                 <div class="inner-container">
@@ -409,7 +410,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="section-5">
         <div class="onePage2 onePage-container container">
             <div class="section-top">
                 <div class="inner-container">
@@ -453,7 +454,7 @@
                                         <div class="title-bold-skyBlue">
                                             TARGET
                                         </div>
-                                        <div class="hidden-block">
+                                        <div class="hidden-block title-bold-skyBlue">
                                             TARGET
                                         </div>
                                     </div>
@@ -461,7 +462,7 @@
                                         <div class="title-bold-skyBlue">
                                             제작기간
                                         </div>
-                                        <div class="hidden-block">
+                                        <div class="hidden-block title-bold-skyBlue">
                                             TARGET
                                         </div>
                                     </div>
@@ -469,7 +470,7 @@
                                         <div class="title-bold-skyBlue">
                                             COLOR
                                         </div>
-                                        <div class="hidden-block">
+                                        <div class="hidden-block title-bold-skyBlue">
                                             TARGET
                                         </div>
                                     </div>
@@ -541,7 +542,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="section-6">
         <div class="onePage3 onePage-container container">
             <div class="section-top">
                 <div class="inner-container">
@@ -579,13 +580,13 @@
                     </div>
                     <div class="spec-wrapper row">
                         <div class="col-1 col">
-                            <span class="title-bold-S-skyBlue row">
+                            <span class="title-bold-skyBlue row">
                                 TARGET
                             </span>
-                            <span class="title-bold-S-skyBlue row">
+                            <span class="title-bold-skyBlue row">
                                 제작 기간
                             </span>
-                            <span class="title-bold-S-skyBlue row">
+                            <span class="title-bold-skyBlue row">
                                 COLOR
                             </span>
                         </div>
@@ -616,7 +617,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="section-7">
         <div class="onePage4 onePage-container container">
             <div class="section-top">
                 <div class="inner-container">
@@ -692,7 +693,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="section-8">
         <div class="onePage5 onePage-container container">
             <div class="section-top">
                 <div class="inner-container">
@@ -774,7 +775,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="section-9">
         <div class="edge-end-container container">
             <div class="section-top">
                 <div class="inner-container">
@@ -806,5 +807,6 @@
             </div>
         </div>
     </section>
+    <script src="./js/scrollToPage.js"></script>
 </body>
 </html>

@@ -14,7 +14,7 @@
 }
 
 .onePage-container .desc-wrapper {  
-    margin-bottom: 5rem;
+    margin-bottom: 5vw;
 }
 
 .onePage-container .col {  
@@ -56,16 +56,9 @@
     justify-content: space-between;
 }
 
-.onePage-container .img-wrapper .front {
-    width: 50vw;
-    margin-left: 10vw;
-}
-
 .onePage-container .img-wrapper .back {
     position: absolute;
-    right: 0;
-    bottom: 0;
-    width:52vw;
+
 }
 
 .onePage-container .img-wrapper .left {
@@ -85,10 +78,21 @@
     padding: 18vw 0;
 }
 
+.onePage1 .img-wrapper .front {
+    width: 64vw;
+}
+
+.onePage1 .img-wrapper .back {
+    width: 50vw;
+    right: 0;
+    bottom: 0;
+}
+
 .onePage1 .row3 {  
     display: flex;
     justify-content: space-between;
 }
+
 
 
 /* ----page2----- */
@@ -108,7 +112,7 @@
 
 .onePage2 .spec-wrapper{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .onePage2 .spec-wrapper .title{
@@ -121,19 +125,19 @@
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    margin-right: 0.5rem;
+    margin-right: 1vw;
 }
 
 .onePage2 .spec-wrapper .col-1-2-1 {
-    margin-right: 2rem;
+    margin-right: 2vw;
 }
 
 .onePage2 .spec-wrapper .col-1-2-1>.row {
-    margin-bottom: 1rem;
+    margin-bottom: 1.1vw;
 }
 
 .onePage2 .spec-wrapper .col-1-2-2>.row {
-    margin-bottom: 1rem;
+    margin-bottom: 1.1vw;
 }
 
 .spec-wrapper .row-1-2-2-1, .spec-wrapper .row-1-2-2-2 {
@@ -172,11 +176,21 @@
 /* -----page3------ */
 
 .onePage3 .img-wrapper {
-    padding: 18vw 0;
+    padding: 8vw 0;
+}
+
+.onePage3 .back{
+    position: absolute;
+    width: 52vw;
+    right: -7vw; 
+    bottom: 8vw;
+}
+
+.onePage3 .front{
+    width: 100vw;
 }
 
 .onePage3 .front .origin-wrapper{
-    position: absolute;
     left: 4rem;
     bottom: 4rem;
 }
@@ -184,35 +198,31 @@
 
 /* -----page4------ */
 .onePage4 .img-wrapper {
-    padding-top: 5rem;
+    padding: 8vw 0;
+    margin: 0;
 }
 
-.onePage4 .front {
-    width: 55rem;
+.onePage4 .img-wrapper .front {
+    width: 80vw;
 }
 
 .onePage4 .front .origin-wrapper{
     position: absolute;
-    left: 4rem;
-    bottom: 3rem;
+    left: 4vw;
+    bottom: 14vw;
 }
 
 .onePage4 .back {
-    width: 30rem;
+    right: -7vw;
+    top: -10vw;
+    width: 50vw;
     
 }
-
-
 /*------------page5----------- */
 
 .onePage5 .spec-wrapper {
     padding-top: 0;
     align-self: flex-start;
-}
-
-.onePage5 .img-wrapper {
-    padding-top: 0;
-    position: static;
 }
 
 
@@ -222,11 +232,11 @@
     align-items: flex-start;
 }
 
-.onePage5 .right {
-    position: relative;
-    width: 40rem;
-    right: 0;
-    bottom: 0;
+.onePage5 .img-wrapper .right {
+    position: absolute;
+    width: 45vw;
+    left: 0;
+    top: 0;
 }
 
 .onePage5 .section-middle {

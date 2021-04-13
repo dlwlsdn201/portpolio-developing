@@ -94,11 +94,11 @@ hr[class*="white"] {
 
 
 div[class|="colorItem"]{
-    padding: 0 16px;
+    padding: 0 2vw;
     text-align: center;
     border-radius: 25px;
-    margin-right: 1.6px;
-    width: 44.8px;
+    margin-right: 1vw;
+    font-size: 1.3vw;
 }
 
 div[class="colorItem-black"]{
@@ -127,18 +127,23 @@ div[class="colorItem-grey"]{
     z-index: -50;
 }
 
-.hidden-block {
+*[class*="hidden"] {
     visibility: hidden;
 }
 
 
+
 /* font-style */
-*[class*="title-bold-S"]{
-    font-size: 1.2vw;
+*[class*="title-bold-skyBlue"]{
+    font-size: 1.5vw;
+}
+
+*[class*="text-s"]{
+    font-size: 1vw;
 }
 
 *[class*="text-S"]{
-    font-size: 12.8px;
+    font-size: 1.5vw;
 }
 
 *[class*="M"]{
