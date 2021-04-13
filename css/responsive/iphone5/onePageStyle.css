@@ -80,87 +80,67 @@
 
 
 /* ----page1---- */
-
-
-.onePage1 .img-wrapper {
-    padding: 30vw 0;
-}
-
-.onePage1 .row { 
-    margin-bottom: 2vw; 
-}
-
-.onePage1 .row3 {  
-    display: flex;
-}
-
-.onePage1 .col { 
-    margin-right: 3vw; 
-}
-
-.onePage1 [class*="colorItem"] {
-    margin-right: 0.5vw; 
-}
-
-
-/* ----page2----- */
-.onePage2 .section-middle .row {
+.onePage1 .section-middle .row {
     margin: 0;
 }
 
-.onePage2 .section-middle .row-1 {
+.onePage1 .section-middle .row-1 {
     justify-content: space-between;
     display: flex;
     justify-content: space-around;
     align-items: baseline;
 }
 
-.onePage2 br{
+.onePage1 br{
     display: none;
 } 
 
-.onePage2 .desc-wrapper{
+.onePage1 .desc-wrapper{
+    margin-bottom: 1vw;
+}
+
+.onePage1 .desc-wrapper{
     word-break: break-word;
     width: 33vw;
 }
 
-.onePage2 .spec-wrapper{
+.onePage1 .spec-wrapper{
     display: flex;
     align-items: center;
 }
 
-.onePage2 .spec-wrapper .title{
+.onePage1 .spec-wrapper .title{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.onePage2 .spec-wrapper .col {
+.onePage1 .spec-wrapper .col {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.onePage2 .spec-wrapper .col-1-2-1 {
+.onePage1 .spec-wrapper .col-1-2-1 {
     margin-right: 2vw;
     align-items: flex-start;
 }
 
-.onePage2 .spec-wrapper .col-1-2-2 {
+.onePage1 .spec-wrapper .col-1-2-2 {
     width: 35vw;
 }
 
-.onePage2 .spec-wrapper .col-1-2-1>.row {
+.onePage1 .spec-wrapper .col-1-2-1>.row {
     margin-bottom: 2.6vw;
     align-items: flex-start;
 }
 
 
-.onePage2 .spec-wrapper .col-1-2-2 {
+.onePage1 .spec-wrapper .col-1-2-2 {
     margin-right: 0;
 }
 
-.onePage2 .spec-wrapper .col-1-2-2>.row {
+.onePage1 .spec-wrapper .col-1-2-2>.row {
     margin-bottom: 1.5vw;
 }
 
@@ -168,40 +148,63 @@
     display: block;
 }
 
-.onePage2 .spec-wrapper .col-1-2-3-1 {
+.onePage1 .spec-wrapper .col-1-2-3-1 {
     margin-right: 1vw;
 }
 
-.onePage2 .spec-wrapper .col-1-2-3-1 *{
+.onePage1 .spec-wrapper .col-1-2-3-1 *{
     margin-bottom: 1vw;
 }
 
-.onePage2 .spec-wrapper .col-1-2-3-2 {
+.onePage1 .spec-wrapper .col-1-2-3-2 {
     margin-right: 0.5vw;
 }
 
-.onePage2 .spec-wrapper .col-1-2-3-2 *{
+.onePage1 .spec-wrapper .col-1-2-3-2 *{
     margin-bottom: 0.1rem;
 }
 
-.onePage2 .spec-wrapper .col-1-2-3-3 *{
+.onePage1 .spec-wrapper .col-1-2-3-3 *{
     margin-bottom: 0.1rem;
 }
 
 
-.onePage2 .img-wrapper {
+.onePage1 .img-wrapper {
     padding: 3rem 0;
     justify-content: center;
 }
 
-.onePage2 .left {
+.onePage1 .left {
     width: 18rem;
     margin-right: 3rem;
 }
 
-.onePage2 .right {
+.onePage1 .right {
     width: 18rem;
     
+}
+
+/* ----page2---- */
+
+
+.onePage2 .img-wrapper {
+    padding: 30vw 0;
+}
+
+.onePage2 .row { 
+    margin-bottom: 2vw; 
+}
+
+.onePage2 .row3 {  
+    display: flex;
+}
+
+.onePage2 .col { 
+    margin-right: 3vw; 
+}
+
+.onePage2 [class*="colorItem"] {
+    margin-right: 0.5vw; 
 }
 
 

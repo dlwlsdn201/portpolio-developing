@@ -16,12 +16,12 @@ html, body {
 }
 
 .container {
-    padding: 5vw 0 0  ;
+    padding: 0;
 }
 
 
 .inner-container {
-    padding: 0 96px;
+    padding: 0 8vw;
 }
 
 
@@ -37,17 +37,13 @@ html, body {
 }
 
 .section-middle {
-    padding: 8vw 0 0;
+    padding: 0;
 }
 
 .section-bottom {
-    padding: 10vw 0;
+    padding: 0;
 }
 
-
-.main-container {
-    margin-top: 3.5rem;
-}
 
 img{
     min-width: 100%;
@@ -97,22 +93,19 @@ hr[class*="white"] {
 }
 
 
-.link_button-wrapper {
+.link-button {
+    display: inline-block;
     margin-top: 1vw;
     border: none;
-    outline: none;
     border-radius: 15px;
-}
-
-
-.link-button {
-    border: none;
-    border-radius: inherit;
     background: lightgray;
+    color: black;
     outline: none;
     cursor: pointer;
-    padding: 0.5vw 1.5vw;
+    box-sizing: border-box;
+    padding: 0.2vw 0.8vw;
 }
+
 
 .link-button:hover {
     background: #7b9acc;

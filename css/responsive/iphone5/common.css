@@ -29,22 +29,19 @@ html, body {
 
 .section-top {
     margin:  0;
-    padding: 3vw 0;
+    padding: 0;
     height: 5vw;
 }
 
 .section-middle {
-    padding: 18vw 0;
+    padding: 0;
 }
 
 .section-bottom {
-    padding: 2vw 0 8vw;
+    padding: 0 ;
 }
 
 
-.main-container {
-    margin-top: 3.5rem;
-}
 
 img{
     min-width: 100%;
@@ -92,16 +89,17 @@ hr[class*="white"] {
     margin-bottom: 10px;
 }
 
-.link_button-wrapper {
-    margin-top: 1vw;
-}
 .link-button {
+    display: inline-block;
+    margin-top: 1vw;
     border: none;
     border-radius: 15px;
     background: lightgray;
+    color: black;
     outline: none;
     cursor: pointer;
-    padding: 0.5vw 1.5vw;
+    box-sizing: border-box;
+    padding: 0.5vw 1.2vw;
 }
 
 .link-button:hover {

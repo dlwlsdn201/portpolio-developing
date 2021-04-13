@@ -3,5 +3,5 @@
 $(document).ready(function() {
     var headerHeight = $(".header-container").outerHeight();
 
-    $(".certification-container").css("margin-top", headerHeight*0.99);
+    $(".edge-start-container").css("margin-top", headerHeight*0.99);
 });
