@@ -124,12 +124,21 @@
     font-size: 3vw;
 }
 
+.index-container .content-wrapper .col .row {
+    margin-bottom : 1.5vw;
+}
+
 .index-container .content-wrapper .col-1 {
     margin-right: 2vw;
 }
 
 .index-container .content-wrapper .col-1 span {
     display: block;
+}
+
+.index-container .content-wrapper .col-2 {
+    border: 1px solid red;
+    margin-right: 0;
 }
 
 .index-container .content-wrapper .content-block:hover {
@@ -141,7 +150,4 @@
     margin-left: 1vw;
 }
 
-.index-container .content-wrapper .col .row {
-    margin-bottom : 1.5vw;
-}
 
