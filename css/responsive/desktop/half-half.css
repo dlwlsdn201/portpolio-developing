@@ -66,6 +66,10 @@
 
 /* ---------index------- */
 
+.index-container .section-bottom {
+    padding-bottom: 10vw 0;
+}
+
 .index-container .title-wrapper {
     display: flex;
     justify-content: flex-end;
@@ -93,6 +97,10 @@
 
 .index-container .content-wrapper .col .row {
     margin-bottom : 2vw;
+}
+
+.index-container .content-wrapper .col-2 {
+    margin-right: 0;
 }
 
 .index-container .content-wrapper .content-block:hover {

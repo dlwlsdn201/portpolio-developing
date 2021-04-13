@@ -32,11 +32,11 @@ html, body {
 }
 
 .section-middle {
-    padding: 10vw 0;
+    padding: 8vw 0 0;
 }
 
 .section-bottom {
-    padding: 10vw 0 0;
+    padding: 10vw 0;
 }
 
 
@@ -174,7 +174,7 @@ div[class="colorItem-grey"]{
 }
 
 *[class*="M"]{
-    font-size: 32px;
+    font-size: 2.5vw;
 }
 
 *[class*="L"]{

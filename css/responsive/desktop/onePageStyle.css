@@ -1,5 +1,10 @@
 /* ------common------ */
 
+
+.onePage-container {  
+    padding: 10vw 0;
+}
+
 .onePage-container .title-wrapper{  
     display: flex;
     align-items: center;
@@ -30,9 +35,9 @@
     margin-bottom: 1rem;
 }
 
-.onePage-container .section-middle {
-    padding-bottom: 10vw;
-}
+/* .onePage-container .section-middle {
+    padding-bottom: 0;
+} */
 
 .onePage-container .section-bottom {
     padding-top: 0;
@@ -96,19 +101,17 @@
 
 
 /* ----page2----- */
+
 .onePage2 .section-middle .row {
     margin: 0;
 }
 
-.onePage2 .row-1 {
-    display: flex;
-    justify-content: space-around;
-    align-items: baseline;
-}
-
 .onePage2 .section-middle .row-1 {
     justify-content: space-between;
+    display: flex;
+    align-items: flex-start;
 }
+
 
 .onePage2 .spec-wrapper{
     display: flex;
