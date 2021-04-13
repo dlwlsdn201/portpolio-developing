@@ -16,6 +16,10 @@
     align-items: flex-start;
 }
 
+.certification-container .section-middle {
+    padding-bottom: 8vw; 
+}
+
 .certification-container .section-bottom {
     padding-bottom: 10vw; 
 }

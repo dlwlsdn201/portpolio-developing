@@ -9,6 +9,12 @@ html, body {
 }
 
 
+#copyBox {
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 
 .inner-container {
     padding: 0 5vw;
@@ -105,6 +111,12 @@ hr[class*="white"] {
 .link-button:active {
     background: #7b9acc;
     color: white;
+}
+
+.copy-button{
+    cursor: pointer;
+    color: #777676;
+    font-size: 2vw;
 }
 
 

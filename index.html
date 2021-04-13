@@ -15,9 +15,9 @@
     <link rel="stylesheet" media="screen and (min-width: 481px)" href="./css/responsive/desktop/onePageStyle.css">
     <link rel="stylesheet" media="screen and (min-width: 481px)" href="./css/responsive/desktop/header.css">
     <link rel="stylesheet" href="./css/pictonic/pictonic/css/pictonic.css">
+    <link rel="stylesheet" href="./css/pictonic/document-icon/pictonic/css/pictonic.css">
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js">   </script>
-    <script src="./jquery/header.js"></script>
-
+ 
     <title>main</title>
 </head>
 <body>
@@ -84,13 +84,27 @@
                             <div class="tltle-title-bold-M-skyBlue">E-MAIL</div>
                         </div>
                         <div class="col-2 col">
-                            <div class="text-M tel"> 
-                                +82 10-6536-4999
+                            <div class="text-block"> 
+                                <span class="text-M" id="tel">
+                                    +82 10-6536-4999
+                                </span>
+                                <span class="copy-button icon-kub-document" id="copy-tel">
+                                    Copy
+                                </span>
                             </div>
-                            <div class="text-M mail">
-                                chahyunwoobi@gmail.com
+                            <div class="text-block">
+                                <span class="text-M" id="mail">
+                                    chahyunwoobi@gmail.com
+                                </span>
+                                <span class="copy-button icon-kub-document" id="copy-mail">
+                                    Copy
+                                </span>
                             </div>
                         </div>
+                        <input 
+                            id="copyBox" 
+                            value = "" 
+                        />
                     </div>
                 </div>
             </div>
@@ -841,5 +855,7 @@
         </div>
     </section>
     <script src="./js/scrollToPage.js"></script>
+    <script src="./jquery/header.js"></script>
+    <script src="./jquery/copy.js"></script>
 </body>
 </html>

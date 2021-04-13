@@ -20,8 +20,19 @@
 	font-smoothing:  antialiased !important;
 	line-height:1em;
 }
+
+.icon
+{
+	font-family: "pictonic";
+	font-weight: normal; font-style: normal;
+	-webkit-font-smoothing:  antialiased !important;
+	-moz-font-smoothing:  antialiased !important;
+	-moz-osx-font-smoothing: grayscale !important; 
+	font-smoothing:  antialiased !important;
+	line-height:1em;
+}
  
-a.pictonic, span.pictonic, small.pictonic {
+a.pictonic, span.pictonic, small.pictonic, a.icon, span.icon, small.icon {
 	display: -moz-inline-stack;
 	display:inline-block;
 	zoom: 1;
@@ -311,3 +322,4 @@ a[class^="icon-"], a[class*=" icon-"], span[class^="icon-"], span[class*=" icon-
 .icon-aim:before { content:""; } 
 .icon-youtube:before { content:""; } 
 .icon-netlog:before { content:""; }
+.icon-kub-document:before { content:""; }
