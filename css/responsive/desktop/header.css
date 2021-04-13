@@ -13,5 +13,9 @@
 }
 
 .menu {
-    margin-right: 2rem;
+    width: 6vw;
+}
+
+.menu:hover {
+    font-weight: 800;
 }
