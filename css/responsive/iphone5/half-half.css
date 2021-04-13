@@ -127,6 +127,10 @@
     display: block;
 }
 
+.index-container .content-wrapper .content-block:hover {
+    cursor: pointer;
+}
+
 
 .index-container .section-bottom .text-default-M{
     margin-left: 1vw;

@@ -1,26 +1,55 @@
-const goToSection4 = document.querySelector('#section4');
-const goToSection5 = document.querySelector('#section5');
-const goToSection6 = document.querySelector('#section6');
-const goToSection7 = document.querySelector('#section7');
-const goToSection8 = document.querySelector('#section8');
+const gnbToPage4 = document.querySelector('#section4');
+const gnbToPage5 = document.querySelector('#section5');
+const gnbToPage6 = document.querySelector('#section6');
+const gnbToPage7 = document.querySelector('#section7');
+const gnbToPage8 = document.querySelector('#section8');
 
-goToSection4.addEventListener("click", (e)=> {
+const indexToPage4 = document.querySelector('#INDEX-section4');
+const indexToPage5 = document.querySelector('#INDEX-section5');
+const indexToPage6 = document.querySelector('#INDEX-section6');
+const indexToPage7 = document.querySelector('#INDEX-section7');
+const indexToPage8 = document.querySelector('#INDEX-section8');
+
+
+gnbToPage4.addEventListener("click", (e)=> {
     e.preventDefault();
     document.querySelector('#section-4').scrollIntoView(true);
 });
-goToSection5.addEventListener("click", (e)=> {
+gnbToPage5.addEventListener("click", (e)=> {
     e.preventDefault();
     document.querySelector('#section-5').scrollIntoView(true);
 });
-goToSection6.addEventListener("click", (e)=> {
+gnbToPage6.addEventListener("click", (e)=> {
     e.preventDefault();
     document.querySelector('#section-6').scrollIntoView(true);
 });
-goToSection7.addEventListener("click", (e)=> {
+gnbToPage7.addEventListener("click", (e)=> {
     e.preventDefault();
     document.querySelector('#section-7').scrollIntoView(true);
 });
-goToSection8.addEventListener("click", (e)=> {
+gnbToPage8.addEventListener("click", (e)=> {
+    e.preventDefault();
+    document.querySelector('#section-8').scrollIntoView(true);
+});
+
+
+indexToPage4.addEventListener("click", (e)=> {
+    e.preventDefault();
+    document.querySelector('#section-4').scrollIntoView(true);
+});
+indexToPage5.addEventListener("click", (e)=> {
+    e.preventDefault();
+    document.querySelector('#section-5').scrollIntoView(true);
+});
+indexToPage6.addEventListener("click", (e)=> {
+    e.preventDefault();
+    document.querySelector('#section-6').scrollIntoView(true);
+});
+indexToPage7.addEventListener("click", (e)=> {
+    e.preventDefault();
+    document.querySelector('#section-7').scrollIntoView(true);
+});
+indexToPage8.addEventListener("click", (e)=> {
     e.preventDefault();
     document.querySelector('#section-8').scrollIntoView(true);
 });
