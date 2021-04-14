@@ -18,9 +18,8 @@
     justify-content: center;
 }
 
-.onePage-container .inner-container {  
-    /* height: 100%; */
-
+.onePage-container .section-bottom {  
+    display: none;
 }
 
 .onePage-container .left-wrapper-width {  
@@ -106,12 +105,6 @@
     align-items: flex-start;
 }
 
-
-
-.onePage1 .desc-wrapper{
-    margin-bottom: 1vw;
-}
-
 .onePage1 .spec-wrapper{
     display: flex;
     align-items: flex-start;
@@ -162,30 +155,46 @@
     display: none;
 }
 
-/* onePage1-1 */
+/* page1---inner-container-wide */
+.onePage1 .section-middle .inner-container{  
+    display: flex;
+    justify-content: space-between;
+}
 
+.onePage1 .section-middle > .inner-container:first-child {  
+    display: none;
+}
 
+.onePage1 .section-wide-left {  
+    width: 50%;
+    flex: 1;
+}
 
-.section-wide .onePage1 .section-middle {
+.onePage1 .section-wide-right {  
+    flex: 1;
+    width: 50%;
+}
+
+.onePage1 .img-wrapper {
     padding: 0;
-    height: 100%;
-}
-
-.section-wide .onePage1 .img-wrapper {
     justify-content: center;
-    height: 100%;
 }
 
-.section-wide .onePage1 .left {
+.onePage1 .img-wrapper .left {
     width: 15vw;
-    margin-right: 10vw;
+    margin-right: 10%;
 }
 
-.section-wide .onePage1 .right {
+.onePage1 .img-wrapper .right {
     width: 15vw;
+} */
+
+.onePage1 .row3 {  
+    display: flex;
+    justify-content: space-between;
 }
 
-/* ----page2---- */
+/* ----page2----inner-container-wide--- */
 
 .onePage2 .section-middle .inner-container{  
     display: flex;
@@ -196,12 +205,12 @@
     display: none;
 }
 
-.onePage2 .section-width-left {  
+.onePage2 .section-wide-left {  
     width: 50%;
     flex: 1;
 }
 
-.onePage2 .section-width-right {  
+.onePage2 .section-wide-right {  
     flex: 1;
     width: 50%;
 }
@@ -211,21 +220,23 @@
 }
 
 .onePage2 .img-wrapper .front {
-    position: absolute;
-    left: -12vw;
-    top: 6vw;
-    width: 30vw;
+    position: relative;
+    width: 38vw;
 }
 
 .onePage2 .img-wrapper .back {
-    position: relative;
-    width: 26vw;
+    position: absolute;
+    width: 70%;
+    right: -15%; 
+    top: -30%;
 }
 
 .onePage2 .row3 {  
     display: flex;
     justify-content: space-between;
 }
+
+
 
 
 
