@@ -34,9 +34,9 @@
 }
 
 .certification-container2 .section-middle {
-    height: 50%;
+    height: 100%;
     width: 100%;
-    padding: 15% 0;
+    padding: 3% 0;
     /* display: flex;
     justify-content: center;
     align-items: center; */
@@ -155,11 +155,11 @@
 .index-container2 .section-middle .content-wrapper {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
 }
 
-.index-container2 .section-middle .text-default-M{
-    margin-left: 0.5rem;
+.index-container2 .section-middle .num{
+    display: inline-block;
+    margin-right: 1vw;
 }
 
 .index-container2 .content-wrapper .col {
