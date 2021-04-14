@@ -4,4 +4,4 @@ $(document).ready(function() {
     var headerHeight = $(".header-container").outerHeight();
 
     $("section").css("margin-top", headerHeight*0.999);
-});
+}); 

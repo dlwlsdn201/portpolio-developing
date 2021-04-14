@@ -1,0 +1,52 @@
+.main-container
+{
+    height: 100%;
+    position: relative;
+}
+
+.end {
+    margin-top: 30px;
+    font-size: 3em;
+    font-weight: bold;
+    opacity: 0;
+    -webkit-transform: translateY(300px);
+            transform: translateY(300px);
+    transition: opacity, -webkit-transform 1s;
+    transition: opacity, transform 1s;
+    transition: opacity, transform 1s, -webkit-transform 1s;
+    transition-delay: 1s;
+   }
+
+
+/* section{ */
+    /* position: absolute; */
+    /* top: 0;
+    left: 0; */
+    /* transform: translate3d(0,0,0);
+    transition: 800ms; */
+/* }
+.container{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 800ms;
+}
+.queue{
+    transform: translate3d(0, 100%, 0);
+}
+.prev{
+    transform: translate3d(0,-100%,0);
+}
+.prev .container{
+    opacity: 0;
+}
+.bounce{
+    transition: 300ms;
+}
+section:first-child.bounce{
+    transform: translate3d(0,10%,0);
+}
+section:last-child.bounce{
+    transform: translate3d(0,-10%,0);
+} */
+

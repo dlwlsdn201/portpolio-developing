@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
     var timeStart = 0;
   
@@ -51,7 +52,7 @@ $(document).ready(function () {
           .addClass("active");
       }
     }
-  
+
     function hotkeys(e) {
       if (e.keyCode == 38) {
         prevSlide();
