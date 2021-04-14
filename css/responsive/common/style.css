@@ -9,6 +9,11 @@ section,
     overflow: hidden;
 }
 
+.icon-kub-arw-right {
+    font-size: 1.5vw;
+    margin-left: 1vw;
+}
+
 
 section{
     position: absolute;
