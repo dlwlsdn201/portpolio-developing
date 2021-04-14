@@ -8,6 +8,10 @@ html, body {
     padding: 0;
 }
 
+section  {
+    height: 90vh;
+}
+
 
 #copyBox {
     opacity: 0;
@@ -17,7 +21,16 @@ html, body {
 }
 
 .inner-container {
-    padding: 0 5vw;
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+
+.index-wrapper {
+    padding: 5% 0;
+}
+
+*[class="wide"]{
+    display: none;
 }
 
 
@@ -28,11 +41,13 @@ html, body {
 }
 
 .section-top {
+    height: 10%;
     margin:  0;
     padding: 0;
 }
 
 .section-middle {
+    height: 90%;
     padding: 0;
 }
 

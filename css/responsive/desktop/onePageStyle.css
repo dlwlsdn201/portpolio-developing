@@ -369,9 +369,6 @@
     justify-content: space-between;
 }
 
-.onePage5 .section-middle > .inner-container:first-child {  
-    display: none;
-}
 
 .onePage5 .section-wide-left {  
     width: 80%;
@@ -383,12 +380,23 @@
     flex: 0.4;
 }
 
+.onePage5 .img-wrapper {
+    position: relative;
+    height: 100%;
+}
+
 .onePage5 .img-wrapper .img-block{
     position: absolute;
-    right: 20%;
-    bottom:auto;
-    top: -10vh;
-    width: 54vh;
+    right: 15%;
+    top: -5%;
+    width: 70%;
+}
+
+
+.onePage5 .origin-wrapper{
+    position: absolute;
+    left: -18%;
+    bottom: -12%;
 }
 
 .onePage5 .text-S-desc {

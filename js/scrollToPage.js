@@ -1,4 +1,4 @@
-
+const gnbToHome = document.querySelector('#home');
 const gnbToAbout = document.querySelector('#About');
 const gnbToPage4 = document.querySelector('#section4');
 const gnbToPage5 = document.querySelector('#section5');
@@ -12,9 +12,14 @@ const indexToPage6 = document.querySelector('#INDEX-section6');
 const indexToPage7 = document.querySelector('#INDEX-section7');
 const indexToPage8 = document.querySelector('#INDEX-section8');
 
+gnbToHome.addEventListener("click", (e)=> {
+    e.preventDefault();
+    document.querySelector('#section-1').scrollIntoView(true);
+});
+
 gnbToAbout.addEventListener("click", (e)=> {
     e.preventDefault();
-    document.querySelector('#section-About').scrollIntoView(true);
+    document.querySelector('#section-2').scrollIntoView(true);
 });
 
 gnbToPage4.addEventListener("click", (e)=> {

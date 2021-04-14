@@ -22,6 +22,10 @@
     width: 10vw;
 }
 
+.menu:last-child> a {
+    padding-bottom: 15%;
+}
+
 .menu:hover > a{
     font-weight: 800;
 }
