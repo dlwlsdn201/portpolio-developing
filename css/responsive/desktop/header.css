@@ -1,9 +1,10 @@
 .header-container{
     position: fixed;
     width: 100%;
-    padding: 2vw 4vw;
+    padding: 1vw 4vw;
     box-sizing: border-box;
     background: #7b9acc;
+    z-index: 50;
 }
 
 .menu-block {

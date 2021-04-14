@@ -1,6 +1,6 @@
 html, body { 
     overflow-x: hidden;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Jua', sans-serif;
 }
 
 * {
@@ -30,7 +30,6 @@ html, body {
 .section-top {
     margin:  0;
     padding: 0;
-    height: 5vw;
 }
 
 .section-middle {
