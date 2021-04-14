@@ -5,6 +5,11 @@
     height: 100%;
 }
 
+.onePage-container .wide {
+    display: none;
+}
+
+
 .onePage-container .section-middle {
     height: 90%;
 }
@@ -86,6 +91,7 @@
 }
 
 /* ----page1---- */
+
 
 .onePage1 .section-middle {
     height: 30%;

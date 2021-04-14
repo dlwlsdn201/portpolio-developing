@@ -26,7 +26,7 @@
 }
 
 .certification-container .section-middle {
-    padding: 20vw 0;
+    padding-top: 24vw;
 }
 
 
@@ -146,8 +146,9 @@
     justify-content: center;
 }
 
-.index-container2 .section-middle .text-default-M{
-    margin-left: 1vw;
+.index-container2 .content-wrapper .num{
+    display: inline-block;
+    margin-right: 1.5vw;
 }
 
 
@@ -162,28 +163,17 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: baseline;
-    margin-right: 2vw;
 }
 
 .index-container2 .content-wrapper .col span{
-    font-size: 2.6vw;
+    font-size: 2.2vw;
 }
 
 .index-container2 .content-wrapper .col .row {
-    margin-bottom : 0;
+    margin-bottom : 2vw;
 }
 
-.index-container2 .content-wrapper .col-1 {
-    margin-right: 2vw;
-}
 
-.index-container2 .content-wrapper .col-1 span {
-    display: block;
-}
-
-.index-container2 .content-wrapper .col-2 {
-    margin-right: 0;
-}
 
 .index-container2 .content-wrapper .content-block:hover {
     cursor: pointer;
