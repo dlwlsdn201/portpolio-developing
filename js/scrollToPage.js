@@ -1,5 +1,6 @@
 const gnbToHome = document.querySelector('.home');
 const gnbToAbout = document.querySelector('.about');
+const gnbToPorpolio = document.querySelector('.portpolio');
 const gnbToPage4 = document.querySelector('#section4');
 const gnbToPage5 = document.querySelector('#section5');
 const gnbToPage6 = document.querySelector('#section6');
@@ -18,7 +19,7 @@ const section1 = document.querySelector('#section-1');
 const section2 = document.querySelector('#section-2');
 const section2_1 = document.querySelector('#section-2-1');
 const section3 = document.querySelector('#section-3');
-const section3_1 = document.querySelector('#section-3-1');
+// const section3_1 = document.querySelector('#section-3-1');
 const section4 = document.querySelector('#section-4');
 const section5 = document.querySelector('#section-5');
 const section6 = document.querySelector('#section-6');
@@ -31,7 +32,6 @@ updateState = (e) => {
         section2,
         section2_1,
         section3,
-        section3_1,
         section4,
         section5,
         section6,
@@ -77,6 +77,11 @@ gnbToHome.addEventListener("click", (e)=> {
 });
 
 gnbToAbout.addEventListener("click", (e)=> {
+    e.preventDefault();
+    updateState((e));
+});
+
+gnbToPorpolio.addEventListener("click", (e)=> {
     e.preventDefault();
     updateState((e));
 });
