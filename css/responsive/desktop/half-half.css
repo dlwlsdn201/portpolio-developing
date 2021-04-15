@@ -57,34 +57,78 @@
 
 .certification-container2 .section-middle .content-wrapper {
     align-items: normal;
+    padding: 0 4vw;
     margin-bottom: 10%;
 }
 
 
-.certification-container2 .section-middle .col-1 {
-    width: 6.3vw;
+.certification-container2 .section-middle .col-1-white {
+    position: relative;
+    margin-right: 0;
 }
 
 
-.certification-container2 .section-middle .col-1 > img {
-    padding: 0.5vw;
+.certification-container2 .section-middle .year-table {
+    display: flex;
+    margin-right: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
 
+.certification-container2 .section-middle .vertical-line {
+    z-index: 0;
+    position: absolute;
+    border: 1% solid #548687;
+    background: #548687;
+    height: 100%;
+    width: 8%;
+    left: 33%;
+}
+
+.certification-container2 .section-middle .year-cell{
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.certification-container2 .section-middle .year-item {
+    border-radius: 50%;
+    background-color: white;
+    color: #548687;
+    border: 2px solid #548687;
+    padding: 1.5vw 0;
+    font-size: 1.5vw;
+    text-align:center;
+    width: 5vw;
+    /* margin-bottom: 75%;  */
+}
+
+.certification-container2 .section-middle .horizonal-line {
+    border: 0.1vw solid #548687;
+    background: #548687;
+    width: 2vw;
+}
+
+.certification-container2 .year-cell:last-child{
+    margin-bottom: 0; 
 }
 
 .certification-container2 .section-middle .col-2 {
     justify-content: space-between;
     padding: 1.8vw 0 1.5vw;
+    margin: 0 3vw 0 1vw;
 }
 
 .certification-container2 .section-middle .col-3 {
     justify-content: space-around;
     align-items: flex-start;
-    padding: 16px 0;
+    padding: 0.2vw 0 0;
 }
 
 .certification-container2 .section-middle .content-box {
     flex: 0.2;
-    width: 320px;
 }
 
 .certification-container2 .section-middle .horizonal-line-blue {
