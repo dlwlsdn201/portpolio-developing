@@ -155,7 +155,6 @@
 }
 
 .index-container2 .content-wrapper .num{
-    display: inline-block;
     margin-right: 1.5vw;
 }
 
@@ -168,7 +167,7 @@
 }
 
 .index-container2 .content-wrapper .col span{
-    display: inline-block;
+    white-space:nowrap;
     font-size: 2.2vw;
 }
 
@@ -176,6 +175,12 @@
     margin-bottom : 2vw;
     width:100%;
     white-space:nowrap;
+}
+
+.index-container2 .content-wrapper .content-block span{
+    white-space:nowrap;
+    border: 1px solid red;
+    font-size: 2.2vw;
 }
 
 

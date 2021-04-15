@@ -169,6 +169,10 @@
     align-items: baseline;
 }
 
+.index-container2 .content-wrapper .col span{
+    white-space:nowrap;
+}
+
 
 .index-container2 .content-wrapper .col .row {
     margin-bottom : 0;
