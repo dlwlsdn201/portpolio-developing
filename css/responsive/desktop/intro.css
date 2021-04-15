@@ -1,0 +1,26 @@
+.section-1 {
+    height: 100vh;
+}
+
+.edge-start-container {
+    height: 100%;
+}
+
+
+.start {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-wrapper {
+    text-align: right;
+    margin-top: 1vw;
+}
+
+/* -----start----- */
+
+.edge-start-container {
+    padding: 0;
+}
