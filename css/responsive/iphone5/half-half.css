@@ -168,14 +168,12 @@
 
 .index-container2 .content-wrapper .col span{
     white-space:nowrap;
-    border: 1px solid blue;
     font-size: 2.2vw;
 }
 
 .index-container2 .content-wrapper .col .row {
     margin-bottom : 2vw;
     width:100%;
-    white-space:nowrap;
 }
 
 /* .index-container2 .content-wrapper .content-block span{
