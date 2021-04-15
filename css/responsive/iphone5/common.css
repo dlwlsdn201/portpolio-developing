@@ -37,7 +37,7 @@ section  {
 .section-top[class*="skyBlue"],
 .section-middle[class*="skyBlue"],
 .section-bottom[class*="skyBlue"] {
-    background-color: #7b9acc;
+    background-color: #77AF9C;
 }
 
 .section-top {
@@ -75,7 +75,7 @@ a {
 
 hr[class*="skyBlue"] {
     min-width: 100%;
-    border: 1px solid #7b9acc;
+    border: 1px solid #77AF9C;
 }
 
 hr[class*="white"] {
@@ -96,8 +96,8 @@ hr[class*="white"] {
 }
 
 .vertical-line-thin {
-    border: 0.1px solid #7b9acc;
-    background: #7b9acc;
+    border: 0.1px solid #77AF9C;
+    background: #77AF9C;
     height: 160px;
     width: 0.1px;
     margin-bottom: 10px;
@@ -121,7 +121,7 @@ hr[class*="white"] {
 }
 
 .link-button:active {
-    background: #7b9acc;
+    background: #77AF9C;
     color: white;
 }
 
@@ -217,7 +217,7 @@ div[class="colorItem-grey"]{
     ~ gray(desc) : #777676,
     ~ grey(block) : #7f7f7f,
     ~ skyBlue: #7b9acc,
-    ~ blue: #436caf,
+    ~ blue: #548687,
     ~ lightBlue(block): #3dbfef,
     ~white: #fcf6f5 */
 
@@ -227,7 +227,7 @@ div[class="colorItem-grey"]{
 }
 
 *[class*="skyBlue"]{
-    color: #7b9acc;
+    color: #77AF9C;
 }
 
 *[class*="white"]{
@@ -235,7 +235,7 @@ div[class="colorItem-grey"]{
 }
 
 *[class*="blue"]{
-    color:#436caf;
+    color:#548687;
 }
 
 *[class*="desc"]{

@@ -37,7 +37,8 @@ section  {
 .section-top[class*="skyBlue"],
 .section-middle[class*="skyBlue"],
 .section-bottom[class*="skyBlue"] {
-    background-color: #7b9acc;
+    /* background-color: #7b9acc; */
+    background-color: #77AF9C;
 }
 
 .section-top {
@@ -72,7 +73,7 @@ a {
 
 hr[class*="skyBlue"] {
     min-width: 100%;
-    border: 1px solid #7b9acc;
+    border: 1px solid#77AF9C;
 }
 
 hr[class*="white"] {
@@ -94,8 +95,8 @@ hr[class*="white"] {
 }
 
 .vertical-line-thin {
-    border: 0.1px solid #7b9acc;
-    background: #7b9acc;
+    border: 0.1px solid#77AF9C;
+    background:#77AF9C;
     height: 192px;
     width: 0.1px;
     margin-bottom: 1rem;
@@ -117,11 +118,11 @@ hr[class*="white"] {
 
 
 .link-button:hover {
-    background: #7b9acc;
+    background:#77AF9C;
 }
 
 .link-button:active {
-    background: #436caf;
+    background: #548687;
     color: white;
 }
 
@@ -230,7 +231,7 @@ div[class="colorItem-grey"]{
 }
 
 *[class*="skyBlue"]{
-    color: #7b9acc;
+    color:#77AF9C;
 }
 
 *[class*="white"]{
@@ -238,7 +239,7 @@ div[class="colorItem-grey"]{
 }
 
 *[class*="blue"]{
-    color:#436caf;
+    color:#548687;
 }
 
 *[class*="desc"]{
