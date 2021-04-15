@@ -168,6 +168,7 @@
 
 .index-container2 .content-wrapper .col span{
     white-space:nowrap;
+    border: 1px solid blue;
     font-size: 2.2vw;
 }
 
@@ -177,11 +178,10 @@
     white-space:nowrap;
 }
 
-.index-container2 .content-wrapper .content-block span{
+/* .index-container2 .content-wrapper .content-block span{
     white-space:nowrap;
-    border: 1px solid red;
     font-size: 2.2vw;
-}
+} */
 
 
 .index-container2 .content-wrapper .content-block:hover {
