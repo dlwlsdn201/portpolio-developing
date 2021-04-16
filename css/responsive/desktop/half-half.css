@@ -23,7 +23,7 @@
 }
 
 
-/* -----------certification-container2 */
+/* -----------certification-container2----- */
 
 .section-2-1 {
     height: 100vh;
@@ -37,9 +37,7 @@
     height: 100%;
     width: 100%;
     padding: 3% 0;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+
 }
 
 .certification-container2 .title-wrapper {
