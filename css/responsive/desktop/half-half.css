@@ -44,7 +44,7 @@
     margin-bottom: 1.5vw;
 }
 
-.certification-container2 .content-wrapper-white {
+.certification-container2 .content-wrapper {
     display: flex;
     width: 100%;
     justify-content:space-around;
@@ -60,7 +60,7 @@
 }
 
 
-.certification-container2 .section-middle .col-1-white {
+.certification-container2 .section-middle .col-1 {
     position: relative;
     margin-right: 0;
 }
