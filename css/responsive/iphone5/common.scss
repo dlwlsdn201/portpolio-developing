@@ -8,7 +8,7 @@ html, body {
     font-family: 'Jua', sans-serif;
 }
 
-*[class="wide"]{
+#wide{
     display: none;
 }
 
@@ -39,7 +39,7 @@ div[class="colorItem-white"]{
     background: white;
     color: black;
 }
-div[class="colorItem-blue"]{
+div[class="colorItem-mint"]{
     background: #3dbfef;
     color: white;
 }
@@ -63,7 +63,7 @@ a {
     color: inherit;
 }
 
-hr[class*="skyBlue"] {
+hr[class*="lightMint"] {
     min-width: 100%;
     border: 1px solid #77AF9C;
 }
@@ -91,9 +91,9 @@ hr[class*="white"] {
 }
 
 
-.section-top[class*="skyBlue"],
-.section-middle[class*="skyBlue"],
-.section-bottom[class*="skyBlue"] {
+.section-top[class*="lightMint"],
+.section-middle[class*="lightMint"],
+.section-bottom[class*="lightMint"] {
     background-color: #77AF9C;
 }
 
@@ -111,7 +111,6 @@ hr[class*="white"] {
 .section-bottom {
     padding: 0 ;
 }
-
 
 .col {
     display: flex;
@@ -213,9 +212,9 @@ hr[class*="white"] {
     ~ default(black) : #404040,
     ~ gray(desc) : #777676,
     ~ grey(block) : #7f7f7f,
-    ~ skyBlue: #77AF9C,
-    ~ blue: #548687,
-    ~ lightBlue(block): #3dbfef,
+    ~ lightMint: #77AF9C,
+    ~ mint: #548687,
+    ~ lightmint(block): #3dbfef,
     ~white: #fcf6f5 */
 
 
@@ -223,7 +222,7 @@ hr[class*="white"] {
     color: #404040;
 }
 
-*[class*="skyBlue"]{
+*[class*="lightMint"]{
     color: #77AF9C;
 }
 
@@ -231,7 +230,7 @@ hr[class*="white"] {
     color:#fcf6f5;
 }
 
-*[class*="blue"]{
+*[class*="mint"]{
     color:#548687;
 }
 

@@ -1,12 +1,13 @@
 /* ----common----- */
-.half-half .section-middle {
+.introduction .section-middle {
   padding: 0;
 }
 
-.half-half .section-bottom {
+.introduction .section-bottom {
   padding: 0;
 }
 
+/*-----custom------*/
 .certification-container .section-top {
   padding-top: 0;
 }

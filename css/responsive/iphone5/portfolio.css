@@ -213,29 +213,29 @@
   margin-bottom: 1.5vw;
 }
 
-.portfolio1 .section-middle .spec-wrapper .row-1-2-2-1,
-.portfolio1 .section-middle .spec-wrapper .row-1-2-2-2 {
-  display: block;
-}
-
-.portfolio1 .section-middle .spec-wrapper .col-1-2-3-1 {
+.portfolio1 .section-middle .spec-wrapper .col-1-2-2 .col-1-2-2-1 {
   margin-right: 1vw;
 }
 
-.portfolio1 .section-middle .spec-wrapper .col-1-2-3-1 * {
+.portfolio1 .section-middle .spec-wrapper .col-1-2-2 .col-1-2-2-1 * {
   margin-bottom: 1vw;
 }
 
-.portfolio1 .section-middle .spec-wrapper .col-1-2-3-2 {
+.portfolio1 .section-middle .spec-wrapper .col-1-2-2 .col-1-2-2-2 {
   margin-right: 0.5vw;
 }
 
-.portfolio1 .section-middle .spec-wrapper .col-1-2-3-2 * {
+.portfolio1 .section-middle .spec-wrapper .col-1-2-2 .col-1-2-2-2 * {
   margin-bottom: 0.1rem;
 }
 
-.portfolio1 .section-middle .spec-wrapper .col-1-2-3-3 * {
+.portfolio1 .section-middle .spec-wrapper .col-1-2-2 .col-1-2-2-3 * {
   margin-bottom: 0.1rem;
+}
+
+.portfolio1 .section-middle .spec-wrapper .row-1-2-2-1,
+.portfolio1 .section-middle .spec-wrapper .row-1-2-2-2 {
+  display: block;
 }
 
 .portfolio1 .section-bottom .img-wrapper {
