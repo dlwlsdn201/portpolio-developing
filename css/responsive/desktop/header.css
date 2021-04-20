@@ -8,7 +8,7 @@
   z-index: 1000;
 }
 
-.menu-block {
+.header-container .menu-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,12 +20,12 @@
           align-items: center;
 }
 
-.menu-block .menu {
+.header-container .menu-block .menu {
   width: 8vw;
   padding: 0.3vw 0;
 }
 
-.menu-block .menu .submenu {
+.header-container .menu-block .menu .submenu {
   position: absolute;
   top: 4.2vw;
   padding: 1vw 0.5vw;
@@ -33,32 +33,32 @@
   display: none;
 }
 
-.menu-block .menu .submenu .subItem {
+.header-container .menu-block .menu .submenu .subItem {
   margin-top: 1vw;
   width: 12vw;
 }
 
-.menu-block .menu .submenu .subItem:first-child {
+.header-container .menu-block .menu .submenu .subItem:first-child {
   margin-top: 0;
 }
 
-.menu-block .menu .submenu .subItem:hover {
+.header-container .menu-block .menu .submenu .subItem:hover {
   font-weight: 800;
 }
 
-.menu-block .menu:last-child {
+.header-container .menu-block .menu:last-child {
   width: 10vw;
 }
 
-.menu-block .menu:last-child > a {
+.header-container .menu-block .menu:last-child > a {
   padding-bottom: 30%;
 }
 
-.menu-block .menu:hover > a {
+.header-container .menu-block .menu:hover > a {
   font-weight: 800;
 }
 
-.menu-block .menu:hover .submenu {
+.header-container .menu-block .menu:hover .submenu {
   position: absolute;
   display: block;
 }
