@@ -1,5 +1,3 @@
-# portpolio-developing
-
 #  portpoliot 웹페이지 (Self Project #6)
   * Created by HTML5 / CSS3 / JQuery / JavaScript(ES6)*
 
@@ -8,16 +6,17 @@
 
 ## **Features**
 **1.Vanila JavaScript**
-  - Header 높이값에 따른 본문 margin 자동 설정
+  - fullpage 애니메이션 효과를 위해 페이지 요소들을 기반으로 로직 직접 구현
   
-**2. CSS3**
+**2. SCSS**
   - flex 스타일을 기반으로 한 레이아웃
-  - animation 사용
   - SCSS을 이용하여 가독성 개선 
-  - 미디어 쿼리를 사용한 반응형 레이아웃(스마트폰/태블릿/노트북/데스크톱) 
+  - 반응형 레이아웃(스마트폰/데스크톱) 
   
-  
-  
+ **3. Jquery**
+ - fullpage 디자인 적용 
+ - 미디어 쿼리를 사용한 반응형 레이아웃(스마트폰/태블릿/노트북/데스크톱) 
+ - Header 가변 높이값에 따른 본문 영역 margin-top 자동 설정
  ## **Try to experience**
   : https://dlwlsdn201.github.io/portpolio-developing/
 
