@@ -4,7 +4,7 @@
   * Created by HTML5 / CSS3 / JQuery / JavaScript(ES6)*
 
 ## **Preview**
-
+![portfolio](https://user-images.githubusercontent.com/53039583/115642861-ab37ae00-a356-11eb-9900-f1c1b0d79479.gif)
 
 ## **Features**
 **1.Vanila JavaScript**
@@ -19,7 +19,7 @@
   
   
  ## **Try to experience**
-  : https://dlwlsdn201.github.io/ToDoList
+  : https://dlwlsdn201.github.io/portpolio-developing/
 
 
 
