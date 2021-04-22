@@ -15,8 +15,9 @@
   
  **3. Jquery**
  - fullpage 디자인 적용 
- - 미디어 쿼리를 사용한 반응형 레이아웃(스마트폰/태블릿/노트북/데스크톱) 
  - Header 가변 높이값에 따른 본문 영역 margin-top 자동 설정
+
+
  ## **Try to experience**
   : https://dlwlsdn201.github.io/portpolio-developing/
 
