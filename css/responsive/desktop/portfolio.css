@@ -356,7 +356,11 @@
 
 .portfolio4 .section-middle .inner-container .section-wide-right .img-wrapper .front {
   position: relative;
+<<<<<<< HEAD
   /* left: 2vw;
+=======
+  /* left: 2vw;
+>>>>>>> 4c1bc80c1462ac7c2441fe49011a283734c83742
                         top: 4vw; */
   width: 38vw;
 }

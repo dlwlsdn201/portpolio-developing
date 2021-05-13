@@ -133,9 +133,15 @@ hr[class*="white"] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+<<<<<<< HEAD
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+=======
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+>>>>>>> 4c1bc80c1462ac7c2441fe49011a283734c83742
 }
 
 .vertical-line-thin {
@@ -200,11 +206,14 @@ hr[class*="white"] {
   font-size: 4vw;
 }
 
+<<<<<<< HEAD
 .row [class*="text-S"] {
   font-size: 4vw;
   font-weight: 200;
 }
 
+=======
+>>>>>>> 4c1bc80c1462ac7c2441fe49011a283734c83742
 *[class*="L"] {
   font-size: 8vw;
 }
@@ -225,6 +234,7 @@ hr[class*="white"] {
   font-weight: 300;
 }
 
+<<<<<<< HEAD
 /* [text-color-table]
     ~ default(black) : #404040,
     ~ gray(desc) : #777676,
@@ -232,6 +242,15 @@ hr[class*="white"] {
     ~ lightMint: #77AF9C,
     ~ mint: #548687,
     ~ lightmint(block): #3dbfef,
+=======
+/* [text-color-table]
+    ~ default(black) : #404040,
+    ~ gray(desc) : #777676,
+    ~ grey(block) : #7f7f7f,
+    ~ lightMint: #77AF9C,
+    ~ mint: #548687,
+    ~ lightmint(block): #3dbfef,
+>>>>>>> 4c1bc80c1462ac7c2441fe49011a283734c83742
     ~white: #fcf6f5 */
 *[class*="text-title-bold"] {
   color: #404040;

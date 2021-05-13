@@ -1,5 +1,9 @@
 @charset "UTF-8";
+<<<<<<< HEAD
 /* CSS Reset
+=======
+/* CSS Reset
+>>>>>>> 4c1bc80c1462ac7c2441fe49011a283734c83742
 -------------------------------------------------------------- */
 html,
 body,
@@ -128,7 +132,11 @@ legend {
   visibility: hidden;
 }
 
+<<<<<<< HEAD
 /* Reserved Class
+=======
+/* Reserved Class
+>>>>>>> 4c1bc80c1462ac7c2441fe49011a283734c83742
 -------------------------------------------------------------- */
 .blind {
   position: absolute;

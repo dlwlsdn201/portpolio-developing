@@ -227,6 +227,7 @@ div[class="colorItem-grey"] {
   font-weight: 300;
 }
 
+<<<<<<< HEAD
 /* [text-color-table]
     ~ default(black) : #404040,
     ~ gray(desc) : #777676,
@@ -234,6 +235,15 @@ div[class="colorItem-grey"] {
     ~ lightMint: #7b9acc,
     ~ mint: #436caf,
     ~ lightBlue(block): #3dbfef,
+=======
+/* [text-color-table]
+    ~ default(black) : #404040,
+    ~ gray(desc) : #777676,
+    ~ grey(block) : #7f7f7f,
+    ~ lightMint: #7b9acc,
+    ~ mint: #436caf,
+    ~ lightBlue(block): #3dbfef,
+>>>>>>> 4c1bc80c1462ac7c2441fe49011a283734c83742
     ~white: #fcf6f5 */
 *[class*="text-title-bold"] {
   color: #404040;

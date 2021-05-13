@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .header-container{
     position: fixed;
     width: 100%;
@@ -59,3 +60,66 @@
 
 
 
+=======
+.header-container{
+    position: fixed;
+    width: 100%;
+    padding: 1vw 4vw;
+    box-sizing: border-box;
+    background:#77AF9C;
+    z-index: 1000;
+    
+    .menu-block {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    
+        .menu {
+            width: 8vw;
+            padding: 0.3vw 0;
+    
+            .submenu {
+                position: absolute;
+                top: 4.2vw;
+                padding: 1vw 0.5vw;
+                background: #77AF9C;
+                display: none;
+            }
+            
+            .submenu .subItem {
+                margin-top: 1vw;
+                width: 12vw;
+            }
+            
+            .submenu .subItem:first-child {
+                margin-top: 0;
+            }
+            
+            .submenu .subItem:hover {
+                font-weight: 800;
+            }
+        }
+    
+        .menu:last-child {
+            width: 10vw;
+        }
+        
+        .menu:last-child> a {
+            padding-bottom: 30%;
+        }
+        
+        .menu:hover > a{
+            font-weight: 800;
+        }
+        
+        .menu:hover .submenu {
+            position: absolute;
+            display: block;
+        }
+    }
+}
+
+
+
+
+>>>>>>> 4c1bc80c1462ac7c2441fe49011a283734c83742

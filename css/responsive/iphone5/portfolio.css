@@ -323,6 +323,7 @@
   margin-bottom: 2vw;
 }
 
+<<<<<<< HEAD
 .portfolio4 .section-middle .col-1 {
   margin-right: 2vw;
 }
@@ -344,16 +345,43 @@
   bottom: -20%;
   right: 0%;
   width: 40%;
+=======
+.portfolio4 .col-1 {
+  margin-right: 2vw;
+}
+
+.portfolio4 .section-middle .img-wrapper {
+  padding-top: 3%;
+}
+
+.portfolio4 .section-middle .img-wrapper .front {
+  width: 70%;
+}
+
+.portfolio4 .section-middle .img-wrapper .front .origin-wrapper {
+  position: absolute;
+  left: 2%;
+  bottom: 6%;
+}
+
+.portfolio4 .section-middle .img-wrapper .back {
+  bottom: 0%;
+  right: 5%;
+  width: 50%;
+>>>>>>> 4c1bc80c1462ac7c2441fe49011a283734c83742
 }
 
 .portfolio5 .section-middle {
   height: 90%;
 }
 
+<<<<<<< HEAD
 .portfolio5 .section-middle #wide {
   display: initial;
 }
 
+=======
+>>>>>>> 4c1bc80c1462ac7c2441fe49011a283734c83742
 .portfolio5 .section-middle .col .row {
   margin-bottom: 2vw;
 }
