@@ -352,26 +352,32 @@
 
 .portfolio4 .section-middle .inner-container .section-wide-right .img-wrapper {
   padding: 0;
+  height: 100%;
 }
 
 .portfolio4 .section-middle .inner-container .section-wide-right .img-wrapper .front {
   position: relative;
   /* left: 2vw;
                         top: 4vw; */
-  width: 38vw;
+  width: 30vw;
+}
+
+.portfolio4 .section-middle .inner-container .section-wide-right .img-wrapper .front img {
+  height: 35vh;
 }
 
 .portfolio4 .section-middle .inner-container .section-wide-right .img-wrapper .front .origin-wrapper {
   position: absolute;
   left: 1vw;
-  bottom: 2vw;
+  bottom: -1vw;
 }
 
 .portfolio4 .section-middle .inner-container .section-wide-right .img-wrapper .back {
   position: absolute;
-  right: -20%;
-  top: -35%;
-  width: 25vw;
+  right: -60%;
+  top: -10%;
+  width: 20vw;
+  border: 2px solid red;
 }
 
 .portfolio4 .section-middle .inner-container:first-child {

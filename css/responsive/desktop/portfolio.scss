@@ -265,25 +265,31 @@
 
                 .img-wrapper {
                     padding: 0;
-
+                    height: 100%;
                     .front {
                         position: relative;
                         /* left: 2vw;
                         top: 4vw; */
-                        width: 38vw;
+                        width: 30vw;
+                        // height: 50%;
+
+                        img {
+                            height: 35vh;
+                        }
 
                         .origin-wrapper {
                             position: absolute;
                             left: 1vw;
-                            bottom: 2vw;
+                            bottom: -1vw;
                         }
                     }
 
                     .back {
                         position: absolute;
-                        right: -20%;
-                        top: -35%;
-                        width: 25vw;
+                        right: -60%;
+                        top: -10%;
+                        width: 20vw;
+                        border: 2px solid red;
                     }
                 }
             }
