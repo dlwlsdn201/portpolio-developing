@@ -40,7 +40,6 @@ updateState = (e) => {
     ];
 
     let targetID = e.target.id !== '' ? e.target.id : e.currentTarget.parentNode.id;
-    console.log(targetID);
     let sectionID = targetID.slice(-1);
     const target = document.querySelector(`#section-${sectionID}`);
     
