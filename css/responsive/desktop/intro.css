@@ -1,0 +1,23 @@
+.edge-start-container {
+  height: 100%;
+  padding: 0;
+}
+
+.edge-start-container .start {
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.edge-start-container .start .text-wrapper {
+  text-align: right;
+  margin-top: 1vw;
+}
+/*# sourceMappingURL=intro.css.map */

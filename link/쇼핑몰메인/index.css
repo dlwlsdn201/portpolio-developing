@@ -1,0 +1,338 @@
+body{
+    margin:0;
+    -ms-user-select: none; -moz-user-select: -moz-none; -webkit-user-select: none; -khtml-user-select: none; user-select:none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+
+.header1{
+    width: 80%;
+    padding: 30px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hdiv{
+    width: 300px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.hdiv > div{
+    width: 33%;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hdiv > div:last-of-type{
+    border:none;
+}
+
+.hdiv > div > input{
+    width: 50%;
+    border:none;
+    outline: none;
+    padding: 5px 0;
+    border-bottom: 1px solid black;
+}
+
+.hdiv2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.hdiv2 > b{
+    padding: 0 50px;
+    font-size: 40px;
+}
+
+.hdiv3{
+    width: 60%;
+    padding: 30px 20%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.hdiv3 > a{
+    width: 11%;
+}
+
+.list{
+    width: 11%;
+    display: flex;
+    flex-direction: column;
+}
+
+.list > a{
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.list > a:hover{
+    color: red;
+}
+
+
+.dropdown{
+    width: 60%;
+    padding: 0 20%;
+    height: 300px;
+    position: absolute;
+    background-color: blue;
+    z-index: 300;
+    margin-top: 310px;
+    background-color: white;
+    border-bottom: 1px solid black;
+    display: none;
+    justify-content: space-between;
+}
+
+.section{
+    width: 70%;
+    padding: 50px 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ul,li{list-style:none; padding: 0;}
+.slide{width: 600px; height:500px;overflow:hidden;}
+.slide ul{width:calc(100% * 4);display:flex;animation:slide 8s infinite;} 
+.slide li{width:calc(100% / 4);height:500px;}
+.slide li:nth-child(1){background:whitesmoke;}
+.slide li:nth-child(2){background:whitesmoke;}
+.slide li:nth-child(3){background:whitesmoke;}
+.slide li:nth-child(4){background:whitesmoke;}
+@keyframes slide {
+  0% {margin-left:0;} 
+  10% {margin-left:0;} 
+  25% {margin-left:-100%;}
+  35% {margin-left:-100%;} 
+  50% {margin-left:-200%;}
+  60% {margin-left:-200%;}
+  75% {margin-left:-300%;}
+  85% {margin-left:-300%;}
+  100% {margin-left:0;}
+} */
+
+ul,li{list-style:none; padding: 0;}
+.slide{width: 600px; height:500px;overflow:hidden;}
+.slide ul{width:calc(100% * 5);display:flex;animation:slide 8s infinite;} /* slide를 8초동안 진행하며 무한반복 함 */
+.slide li{width:calc(100% / 5);height:500px;}
+.slide li:nth-child(1){background:whitesmoke;}
+.slide li:nth-child(2){background:whitesmoke;}
+.slide li:nth-child(3){background:whitesmoke;}
+.slide li:nth-child(4){background:whitesmoke;}
+.slide li:nth-child(5){background:whitesmoke;}
+@keyframes slide {
+  0% {margin-left:0;} /* 0 ~ 10  : 정지 */
+  10% {margin-left:0;} /* 10 ~ 25 : 변이 */
+  25% {margin-left:-100%;} /* 25 ~ 35 : 정지 */
+  35% {margin-left:-100%;} /* 35 ~ 50 : 변이 */
+  50% {margin-left:-200%;}
+  60% {margin-left:-200%;}
+  75% {margin-left:-300%;}
+  85% {margin-left:-400%;}
+  100% {margin-left:0;}
+}
+
+li > img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.section > img{
+    height:340px;
+    width: 340px;
+    object-fit: contain;
+}
+
+footer{
+    width: 90%;
+    padding: 30px 5%;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    display: flex;
+}
+
+.fdiv{
+    width:30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fdiv > a{
+    color: gray;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.fdiv2{
+    width:60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fdiv2 > a{
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.section2{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.desDiv{
+    width: 27%;
+    padding: 0px 3%;
+    border-right: 1px solid black;
+}
+
+.desDiv  > p{
+    font-weight: bold;
+}
+
+.desDiv:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.desDiv > img{
+    width: 300px;
+}
+
+.imgMenu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.imgMenu > img{
+    width: 50px;
+    height: 70px;
+    object-fit: contain;
+    padding: 3px;
+    cursor: pointer;
+    border:1px solid white;
+}
+
+.imgMenu > img:hover{
+    box-shadow: 0px 0px 5px rgb(255, 197, 197);
+}
+
+.imgMenu > img:nth-of-type(1){
+    border:1px solid rgb(224, 224, 224);
+}
+
+.desDiv:last-of-type{
+    border:none;
+}
+
+.desDiv > p > a{
+    color: gray;
+    font-weight: 500;
+}
+
+#money{
+    font-size: 30px;
+}
+
+.optionCont{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+}
+
+.optionCont > input{
+    width: 30%;
+    height: 30px;
+    padding: 0 2%;
+}
+
+.optionCont > select{
+    width: 30%;
+    height: 35px;
+    padding: 0 2%;
+    margin-left: 40px;
+}
+
+.total{
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.add{
+    width: 170px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: transparent;
+    border:1px solid black;
+    cursor: pointer;
+}
+
+.add:hover{
+    background-color: black;
+    color: white;
+}
+
+.des{
+    margin-top: 100px;
+}
+
+.photoCont{
+    width: 85%;
+    padding: 50px 7.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photoCont > img{
+    width: 16%;
+}
+
+.p{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.hdiv > div > a{
+    cursor: pointer;
+}
+
+.hdiv2 > a{
+    cursor: pointer;
+}

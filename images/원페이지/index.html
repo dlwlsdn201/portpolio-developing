@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+	<title>LE LABO</title>
+
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/index.css">
+	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+	<script>
+		$(document).ready(function (){
+			addEvent();
+
+			function addEvent(){
+				$(window).scroll(function (){
+					var _scrollTop = $(window).scrollTop(),
+						_height = $('.promotion-gnb').height();
+					if (_scrollTop >= $('.promotion-visual').offset().top - _height){
+						$('.promotion-gnb').addClass('fixed-gnb');
+					} else{
+						$('.promotion-gnb').removeClass('fixed-gnb');
+					};
+				});
+			}
+		});
+	</script>
+</head>
+
+<body>
+	<div class="promotion">
+
+		<header class="promotion-gnb">
+			<div class="main-gnb">
+				<div class="logo">
+					<a class="slide" href="javascript:;"><img src="./images/logo.png" alt="" /></a>
+				</div>
+				<div class="nav">
+					<ul>
+						<li><a href="javascript:">HOME</a></li>
+						<li><a href="javascript:">COMPANY</a></li>
+						<li><a href="javascript:">GOODS</a></li>
+						<li><a href="javascript:">CONTACT</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+
+		<section class="promotion-visual">
+			<div class="visual-slide">
+				<input checked type="radio" name="slide" class="control" id="Slide1" />
+				<label for="Slide1" id="s1"></label>
+				<input type="radio" name="slide" class="control" id="Slide2" />
+				<label for="Slide2" id="s2"></label>
+				<input type="radio" name="slide" class="control" id="Slide3" />
+				<label for="Slide3" id="s3"></label>
+				<div class="overflow-wrapper">
+					<a class="slide" href="javascript:;"><img src="./images/main_1.jpg" alt="슬라이드1" /></a>
+					<a class="slide" href="javascript:;"><img src="./images/main_2.jpg"	alt="슬라이드2" /></a>
+					<a class="slide" href="javascript:;"><img src="./images/main_3.jpg"	alt="슬라이드3" /></a>
+				</div>
+			</div>
+		</section>
+
+		<section class="promotion-intro">
+			<div class="wrap">
+				<div class="item">
+					<div class="title">&#60;About Le labo&#62;</div>
+					<div class="subject">
+						<p> A journey through the commune of craftswomen and craftsmen who contribute to and shape le labors world.</p>
+						<p>From the wood maker to the metal worker to the candle pourer to the lab technician to the rose picker to the illustrator.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="promotion-goods">
+			<div class="wrap">
+				<div class="goods-wrap">
+					<ul>
+						<li>
+							<a href="javascript:;"><img src="./images/image1.jpg" alt="바디로션" />
+								<div class="item">
+									<div class="goods">
+										<p>237ml / 8 fl oz</p>
+										<p>Body lotion</p>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;"><img src="./images/image2.jpg" alt="Shower gel" />
+								<div class="item">
+									<div class="goods">
+										<p>237ml / 8 fl oz</p>
+										<p>Shower gel</p>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;"><img src="./images/image3.jpg" alt="Body oil" />
+								<div class="item">
+									<div class="goods">
+										<p>120ml / 4 fl oz</p>
+										<p>Body oil</p>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;"><img src="./images/image4.jpg" alt="Liquid balm" />
+								<div class="item">
+									<div class="goods">
+										<p>7.5ml / .25 fl oz</p>
+										<p>Liquid balm</p>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;"><img src="./images/image5.jpg" alt="Perfume oil" />
+								<div class="item">
+									<div class="goods">
+										<p>30ml / 1 fl oz</p>
+										<p>Perfume oil</p>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;"><img src="./images/image6.jpg" alt="Solid perfume" />
+								<div class="item">
+									<div class="goods">
+										<p>4 g / 0.14 oz</p>
+										<p>Solid perfume</p>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;"><img src="./images/image7.jpg" alt="Solid perfume refill" />
+								<div class="item">
+									<div class="goods">
+										<p>4 g / 0.14 oz</p>
+										<p>Solid perfume refill</p>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;"><img src="./images/image8.jpg" alt="Bar soap" />
+								<div class="item">
+									<div class="goods">
+										<p>255 g / 8 oz</p>
+										<p>Bar soap</p>
+									</div>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="promotion-gallery">
+			<div class="wrap">
+				<div class="container">
+					<div class="gallery-wrap">
+						<div class="item">
+							<a href="javascript:;"><img src="./images/gallery1.jpg" alt="cream 1" /></a>
+							<a href="javascript:;"><img src="./images/gallery2.jpg" alt="cream 2" /></a>
+						</div>
+						<div class="item">
+							<a href="javascript:;"><img src="./images/gallery3.jpg" alt="oli 1" /></a>
+							<a href="javascript:;"><img src="./images/gallery4.jpg" alt="oli 2" /></a>
+						</div>
+					</div>
+					<div class="text">
+						<p>body</p>
+						<p>Hair</p>
+						<p>Face</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="promotion-footer">
+			<div class="wrap">
+				<div class="logo">
+					<img src="./images/logo_w.png" alt="COSEDIA">
+				</div>
+				<div class="info">
+					<p>Copyright © LE LABO All rights reserved.</p>
+					<p class="noto">서울특별시 강남구 신사동 524-31</p>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+</body>
+
+</html>

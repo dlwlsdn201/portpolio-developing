@@ -1,0 +1,245 @@
+/* ----common----- */
+.introduction .section-middle {
+  padding: 0;
+}
+
+.introduction .section-bottom {
+  padding: 0;
+}
+
+/*-----custom------*/
+.certification-container .section-top {
+  padding-top: 0;
+}
+
+.certification-container .section-middle .col-1 {
+  margin-right: 2vw;
+}
+
+.certification-container .title-wrapper {
+  margin-bottom: 5vw;
+}
+
+.certification-container .col {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.certification-container .section-middle {
+  padding-top: 30vw;
+}
+
+.certification-container2 .section-middle {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.certification-container2 .section-middle .inner-container {
+  height: 75%;
+}
+
+.certification-container2 .section-middle .inner-container .title-wrapper {
+  margin-bottom: 5vw;
+}
+
+.certification-container2 .section-middle .inner-container .article-row-1 {
+  margin-bottom: 30%;
+}
+
+.certification-container2 .section-middle .inner-container .article-row-1 .content-wrapper {
+  -webkit-box-align: initial;
+      -ms-flex-align: initial;
+          align-items: initial;
+  margin-left: 5%;
+}
+
+.certification-container2 .section-middle .inner-container .article-row-1 .content-wrapper .col-1 {
+  position: relative;
+  margin-right: 1vw;
+}
+
+.certification-container2 .section-middle .inner-container .article-row-1 .content-wrapper .col-1 .year-table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+.certification-container2 .section-middle .inner-container .article-row-1 .content-wrapper .col-1 .vertical-line {
+  z-index: 0;
+  position: absolute;
+  border: 1% solid #548687;
+  background: #548687;
+  height: 100%;
+  width: 8%;
+  left: 33%;
+}
+
+.certification-container2 .section-middle .inner-container .article-row-1 .content-wrapper .col-1 .year-cell {
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50%;
+}
+
+.certification-container2 .section-middle .inner-container .article-row-1 .content-wrapper .col-1 .year-cell:last-child {
+  margin-bottom: 0;
+}
+
+.certification-container2 .section-middle .inner-container .article-row-1 .content-wrapper .col-1 .year-item {
+  border-radius: 50%;
+  background-color: white;
+  color: #548687;
+  border: 2px solid #548687;
+  padding: 20% 4%;
+  width: 100%;
+  font-size: 60%;
+  text-align: center;
+}
+
+.certification-container2 .section-middle .inner-container .article-row-1 .content-wrapper .col-1 .horizonal-line {
+  border: 0.1vw solid #548687;
+  background: #548687;
+  width: 2vw;
+}
+
+.certification-container2 .section-middle .inner-container .article-row-1 .content-wrapper .col-2 {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.8vw 0 1.5vw;
+  margin: 0 3vw 0 1vw;
+}
+
+.certification-container2 .section-middle .inner-container .article-row-1 .content-wrapper .col-3 {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 1.8vw 0 1.5vw;
+}
+
+.certification-container2 .section-middle .inner-container .article-row-1 .content-wrapper .col-3 p {
+  font-size: 3vw;
+}
+
+.certification-container2 .section-middle .inner-container .article-row-2 .content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.certification-container2 .section-middle .inner-container .article-row-2 .content-wrapper .content-box {
+  -webkit-box-flex: 0.2;
+      -ms-flex: 0.2;
+          flex: 0.2;
+}
+
+.certification-container2 .section-middle .inner-container .article-row-2 .content-wrapper .content-box *[class*="M"] {
+  font-size: 2.5vw;
+  white-space: none;
+}
+
+.certification-container2 .section-middle .inner-container .article-row-2 .content-wrapper .horizonal-line-blue {
+  width: 100%;
+  margin: 0.3vw 0 0.5vw;
+  border: 1px solid #548687;
+}
+
+.index-container .section-middle {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 0;
+}
+
+.index-container .section-middle .inner-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.index-container .content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+}
+
+.index-container .content-wrapper .num {
+  margin-right: 1.5vw;
+}
+
+.index-container .content-wrapper .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  width: 85%;
+}
+
+.index-container .content-wrapper .col .row {
+  margin-bottom: 2vw;
+  width: 100%;
+}
+
+.index-container .content-wrapper .col span {
+  white-space: nowrap;
+  font-size: 2.2vw;
+}
+
+.index-container .content-wrapper .col .content-block:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=introduction.css.map */

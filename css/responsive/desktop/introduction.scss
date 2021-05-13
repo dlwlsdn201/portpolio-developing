@@ -1,0 +1,203 @@
+.certification-container {
+    height: 100%;
+
+    .section-top{
+        height: 10%;
+    }
+    
+    .section-middle{
+        height: 90%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .title-wrapper {
+        margin-bottom: 1vw;
+    }
+    
+    .col {
+        align-items: flex-start;
+    }
+}
+
+.certification-container2 {
+    height: 100%;
+    
+
+    .section-middle {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    
+        .inner-container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+                .title-wrapper {
+                    margin-bottom: 1.5vw;
+                }
+            
+                .article-row-1 {
+                    
+                    .content-wrapper {
+                        display: flex;
+                        align-items: normal;
+                        padding: 0 4vw;
+                        margin-bottom: 3%;
+                
+                        .col-1 {
+                
+                            position: relative;
+                            margin-right: 0;
+                    
+                            .vertical-line {
+                                z-index: 0;
+                                position: absolute;
+                                border: 1% solid #548687;
+                                background: #548687;
+                                height: 100%;
+                                width: 8%;
+                                left: 29%;
+                            }
+                
+                            .year-table {
+                                display: flex;
+                                margin-right: 0;
+                                justify-content: center;
+                                align-items: center;
+                                padding: 0;
+                        
+                                
+                                .year-cell{
+                                    z-index: 1;
+                                    display: flex;
+                                    align-items: center;
+                                    margin-bottom: 10%;
+                        
+                                    .year-item {
+                                        border-radius: 50%;
+                                        background-color: white;
+                                        color: #548687;
+                                        border: 2px solid #548687;
+                                        padding: 1vw 0;
+                                        font-size: 1.2vw;
+                                        text-align:center;
+                                        width: 3.5vw;
+                                        /* margin-bottom: 75%;  */
+                                    }
+                        
+                                    .horizonal-line {
+                                        border: 0.1vw solid #548687;
+                                        background: #548687;
+                                        width: 2vw;
+                                    }
+                        
+                                    &:last-child{
+                                        margin-bottom: 0; 
+                                    }
+                                }
+                        
+                            }
+                        }
+                        
+                        .col-2 {
+                            justify-content: space-between;
+                            padding: 1vw 0 .5vw;
+                            margin: 0 3vw 0 1vw;
+                        }
+                        
+                        .col-3 {
+                            justify-content: space-between;
+                            align-items: flex-start;
+                            padding: .75vw 0 .4vw;
+                        }
+                    }
+            
+                }
+                
+                .article-row-2 {
+            
+                    .content-wrapper {
+                        width: 100%;
+                        justify-content:space-around;
+                        align-items: flex-start;
+            
+                        .content-box {
+                            flex: 0.2;
+            
+                            .horizonal-line-mint {
+                                width: 100%;
+                                border: 1px solid #548687;
+                                margin: 1vw 0;
+                            }
+                        }
+                    }
+                }
+        }
+    }
+}
+
+.index-container {
+    height: 100%;
+
+    .section-middle {
+        padding-bottom: 0;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    
+        .inner-container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+    
+            .content-wrapper {
+                display: flex;
+                justify-content: center;
+            
+                .col {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: baseline;
+                    
+                    span{
+                        white-space:nowrap;
+                    }
+                    
+                    .row {
+                        margin-bottom : 0;
+                    }
+                }
+        
+                .col-1  {
+        
+                    .content-block:hover {
+                        cursor: pointer;
+                    }
+        
+                    .row {
+                        margin-bottom: 2vw;
+                        width: 100%;
+    
+                        .num{
+                            display: inline-block;
+                            margin-right: 1vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    
+
+}
+
+
+
+
+
+

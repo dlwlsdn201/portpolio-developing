@@ -1,0 +1,65 @@
+.header-container {
+  position: fixed;
+  width: 100%;
+  padding: 1vw 4vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #77AF9C;
+  z-index: 1000;
+}
+
+.header-container .menu-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-container .menu-block .menu {
+  width: 8vw;
+  padding: 0.3vw 0;
+}
+
+.header-container .menu-block .menu .submenu {
+  position: absolute;
+  top: 4.2vw;
+  padding: 1vw 0.5vw;
+  background: #77AF9C;
+  display: none;
+}
+
+.header-container .menu-block .menu .submenu .subItem {
+  margin-top: 1vw;
+  width: 12vw;
+}
+
+.header-container .menu-block .menu .submenu .subItem:first-child {
+  margin-top: 0;
+}
+
+.header-container .menu-block .menu .submenu .subItem:hover {
+  font-weight: 800;
+}
+
+.header-container .menu-block .menu:last-child {
+  width: 10vw;
+}
+
+.header-container .menu-block .menu:last-child > a {
+  padding-bottom: 30%;
+}
+
+.header-container .menu-block .menu:hover > a {
+  font-weight: 800;
+}
+
+.header-container .menu-block .menu:hover .submenu {
+  position: absolute;
+  display: block;
+}
+/*# sourceMappingURL=header.css.map */
